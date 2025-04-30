@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Execute Lupo Action
         run: |
-          curl -L -X POST http://20.55.39.142:5000/api/action \
+          curl -L -X POST http://projectbuilds.lupo.ai:5000/api/action \
           -H "Content-Type: application/json" \
           -d '{"repo":"'$repo'","branch":"'$branch'","actor":"'$actor'"}'
         env:
