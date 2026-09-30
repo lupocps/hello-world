@@ -6,13 +6,14 @@ Please feel free to modify it and adapt it to your needs.
 
 If you need help, do not hesitate to contact us. We will be more than happy to help our customers and adapt our product to your needs.
 
+## Generating your videos
+
+Videos are generated from Lupo: open this repository's project at [lupo.ai](https://lupo.ai) and start a build there. Lupo checks your minutes, runs the build and records it against your project. The repository itself does not trigger builds.
+
 ## What is included:
 
 ```
 hello-world
-├── .github
-│   └── workflows
-│       └── generate-course.yml
 ├── .vscode
 │   ├── customsnippets.code-snippets
 │   ├── extensions.json
@@ -25,7 +26,6 @@ hello-world
 └── toc.yml
 ```
 
-* `.github/workflows/generate-course.yml`: contains the github action to generate the videos based on the content of this repository.
 * `.vscode/customsnippets.code-snippets`: contains snippets or shorcuts to save you time when creating the same slides multiple times. More about snippets in Advanced > Snippets.
 * `.vscode/extensions.json`: contains suggested extensions that will pop up if you don't have them installed when you open your project for the first time. 
 * `.vscode/settings.json`: contains suggested configurations for VSCode or its extensions. Here is where we add the themes. More about themes and customization in Styling.
